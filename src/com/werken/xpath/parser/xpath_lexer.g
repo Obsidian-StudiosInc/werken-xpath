@@ -9,6 +9,7 @@ header
 class XPathLexer extends Lexer;
 	options
 	{
+		charVocabulary='\3'..'\377';
 		k = 3;
 		importVocab=XPath;
 	}

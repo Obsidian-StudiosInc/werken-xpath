@@ -8,7 +8,7 @@
     <tstamp/>
     <property name="Name" value="werken.xpath"/>
     <property name="name" value="werken.xpath"/>
-    <property name="version" value="0.9.4"/>
+    <property name="version" value="0.9.5"/>
     <property name="quality" value="beta"/>
     <property name="year" value="2000"/>
 

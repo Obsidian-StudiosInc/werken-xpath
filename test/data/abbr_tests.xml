@@ -628,4 +628,12 @@
 
   </testcase>
 
+  <testcase document="abbr_doc.xml"
+            caseID="028"
+            start="/"
+            xpath="AttributeValueDescriptor[AttributeId='ISA#']">
+    <results/>    
+  </testcase>
+
+
 </tests>
