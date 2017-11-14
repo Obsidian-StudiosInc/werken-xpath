@@ -13,43 +13,12 @@ and walk JDOM <http://www.jdom.org/> trees.
 
 
 ## Requirements
-
-* A modern Java2 platform :: 
-
-  I'm using Sun's official JSDK 1.3 for Linux.  Others should work
-  without much trouble also.
-
-    <http://java.sun.com/>
-    <http://www.blackdown.org/>
-    <http://www.ibm.com/>
-
-
-* The JDOM package. 
-
-  This was written against the CVS tree, so it might not work with
-  whatever milestone source drop you're using.  Hopefully a stable 
-  release of JDOM will appear, and we can nail down a specific minimum
-  version. 
-
-    <http://www.jdom.org/>
-
-
-* ANTLR Parser-Generator 2.7.x
-
-  Once again, I'm using a pre-release candidate, which has special
-  new features to play friendly with jakarta-ant (which is included).
-
-  The version of ANTLR we're using is (and always will be) included
-  in the distribution of werken.xpath.  If you wish, you may always obtain
-  your own copy, with full documentation.  *Everything* is simply a
-  parsing problem, after all.
-
-    <http://www.antlr.org/>
-
+* Gradle <https://gradle.org/>
+* JDOM 2.x <http://www.jdom.org/>
+* ANTLR 2.7.x <http://www.antlr.org/> (need to update to newer 4.x)
 
 ## Documentation
-Generated javadoc documentation will appear in the build/apidocs/
-directory.
+Generated javadoc documentation will appear in the build/apidocs/ directory.
 
 ## License
 werken.xpath is licensed under the Apache Software Foundation
@@ -57,7 +26,6 @@ license. Please see <http://www.apache.org/> for more information.
 Basically, do what ever you wish, as long as you mention "Werken &
 Sons Company" some where in your documentation, colophon, or 'about'
 box.  Just some place, give credit where credit is due.
-
 
 ## Acknowledgements
   * bob mcwhirter/@bobmcwhirter (bob@werken.com)
