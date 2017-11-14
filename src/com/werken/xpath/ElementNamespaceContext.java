@@ -62,12 +62,12 @@ public class ElementNamespaceContext implements NamespaceContext
 
       lineage.push(_element);
 
-      Element elem = _element.getParent();
+      Element elem = _element.getParentElement();
 
       while (elem != null)
       {
         lineage.push(elem);
-        elem = elem.getParent();
+        elem = elem.getParentElement();
       }
 
       List      nsList = null;
