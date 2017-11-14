@@ -28,18 +28,18 @@ Sons Company" some where in your documentation, colophon, or 'about'
 box.  Just some place, give credit where credit is due.
 
 ## Acknowledgements
-  * bob mcwhirter/@bobmcwhirter (bob@werken.com)
+  * Bob Mcwhirter / [@bobmcwhirter](https://github.com/bobmcwhirter) 
     Implementor of the initial code base of werken.xpath.
 
   * Michael Hinchy
     Originally started the JDOM XPath project, but Bob forked, with 100% 
     original code.  Still, he motivated the work.
 
-  * Terence Parr/@parrt
+  * Terence Parr / [@parrt](https://github.com/@parrt)
     Let Bob hack on ANTLR for his own evil purposes.  Also, he 
     originally wrote ANTLR, and like to give him credit for the  
     wonderful tool he's graciouslly given to the community.
 
-  * Jason Hunter/@hunterhacker
+  * Jason Hunter / [@hunterhacker](https://github.com/@hunterhacker)
     One of the JDOM guys (sorry, but Bob never dealt with Brett). Lively 
     banter back'n'forth regarding JDOM, XPath, ant && antlr.
