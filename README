@@ -78,17 +78,18 @@ box.  Just some place, give credit where credit is due.
         ACKNOWLEDGEMENTS
   ----------------------------------------
 
-  * bob mcwhirter (bob@werken.com) -- Implementor of the initial code
-    base of werken.xpath.
+  * bob mcwhirter/@bobmcwhirter (bob@werken.com)
+    Implementor of the initial code base of werken.xpath.
 
-  * Michael Hinchy -- Originally started the JDOM XPath project, but
-    I forked, with 100% original code.  Still, he motivated the work.
+  * Michael Hinchy
+    Originally started the JDOM XPath project, but Bob forked, with 100% 
+    original code.  Still, he motivated the work.
 
-  * Terence Parr (parrt@jguru.com) -- Let me hack on ANTLR for my own
-    evil purposes.  Also, he originally wrote ANTLR, and we'd like to
-    give him credit for the wonderful tool he's graciouslly given to
-    the community.
+  * Terence Parr/@parrt
+    Let Bob hack on ANTLR for his own evil purposes.  Also, he 
+    originally wrote ANTLR, and like to give him credit for the  
+    wonderful tool he's graciouslly given to the community.
 
-  * Jason Hunter (jhunter@collab.net) -- One of the JDOM guys (sorry,
-    but I've never dealt with Brett).  Lively banter back'n'forth 
-    regarding JDOM, XPath, ant && antlr.
+  * Jason Hunter/@hunterhacker
+    One of the JDOM guys (sorry, but Bob never dealt with Brett). Lively 
+    banter back'n'forth regarding JDOM, XPath, ant && antlr.
