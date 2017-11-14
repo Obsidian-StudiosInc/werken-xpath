@@ -175,7 +175,7 @@ public abstract class UnAbbrStep extends Step
       }
     }
 
-    return aggregateResults;;
+    return aggregateResults;
   }
 
   private List applyPredicates(List nodeSet,
@@ -227,7 +227,7 @@ public abstract class UnAbbrStep extends Step
 
     if ( node instanceof Element )
     {
-      List children = ((Element)node).getMixedContent();
+      List children = ((Element)node).getContent();
       
       results.addAll( applyTo( children,
                                support,
@@ -235,7 +235,7 @@ public abstract class UnAbbrStep extends Step
     }
     else if ( node instanceof Document )
     {
-      List children = ((Document)node).getMixedContent();
+      List children = ((Document)node).getContent();
       
       results.addAll( applyTo( children,
                                support,
@@ -256,7 +256,7 @@ public abstract class UnAbbrStep extends Step
 
     if ( node instanceof Element )
     {
-      List children = ((Element)node).getMixedContent();
+      List children = ((Element)node).getContent();
       
       results.addAll( applyTo( children,
                                support,
@@ -264,7 +264,7 @@ public abstract class UnAbbrStep extends Step
     }
     else if ( node instanceof Document )
     {
-      List children = ((Document)node).getMixedContent();
+      List children = ((Document)node).getContent();
 
       results.addAll( applyTo( children,
                                support,
