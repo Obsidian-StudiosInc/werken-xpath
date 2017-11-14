@@ -28,7 +28,7 @@ public class ParentStep extends AbbrStep
   {
     if ( node instanceof Element )
     {
-      return ((Element)node).getParent();
+      return ((Element)node).getParentElement();
     }
 
     return null;
@@ -50,7 +50,7 @@ public class ParentStep extends AbbrStep
 
       if ( each instanceof Element )
       {
-        parent = ((Element)each).getParent();
+        parent = ((Element)each).getParentElement();
 
         if (parent != null)
         {
