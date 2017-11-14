@@ -57,9 +57,9 @@ public class Test
       System.err.println("Results :: " + results);
 
     }
-    catch (JDOMException jde)
+    catch (JDOMException | IOException e)
     {
-      jde.printStackTrace(System.err);
+      e.printStackTrace(System.err);
     }
 
   }
