@@ -84,16 +84,16 @@ public class NodeTypeStep extends UnAbbrStep
     {
       if ( isAbsolute() )
       {
-        results.addAll(  applyToNodes( ((Element)node).getDocument().getMixedContent() ) );
+        results.addAll(  applyToNodes( ((Element)node).getDocument().getContent() ) );
       }
       else
       {
-        results.addAll( applyToNodes( ((Element)node).getMixedContent() ) );
+        results.addAll( applyToNodes( ((Element)node).getContent() ) );
       }
     }
     else if ( node instanceof Document )
     {
-      results.addAll( applyToNodes( ((Document)node).getMixedContent() ) );
+      results.addAll( applyToNodes( ((Document)node).getContent() ) );
     }
 
     return results;
