@@ -3,10 +3,10 @@ package com.werken.xpath.impl;
 
 import com.werken.xpath.ContextSupport;
 
-import org.jdom.Document;
-import org.jdom.Element;
-import org.jdom.Attribute;
-import org.jdom.Namespace;
+import org.jdom2.Document;
+import org.jdom2.Element;
+import org.jdom2.Attribute;
+import org.jdom2.Namespace;
 
 import java.util.List;
 import java.util.ArrayList;

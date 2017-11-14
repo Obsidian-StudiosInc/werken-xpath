@@ -1,7 +1,7 @@
 
 package com.werken.xpath.util;
 
-import org.jdom.Element;
+import org.jdom2.Element;
 
 import java.util.List;
 import java.util.ArrayList;

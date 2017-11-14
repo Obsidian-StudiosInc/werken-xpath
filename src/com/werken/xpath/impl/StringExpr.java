@@ -1,7 +1,7 @@
 
 package com.werken.xpath.impl;
 
-import org.jdom.Element;
+import org.jdom2.Element;
 
 public class StringExpr extends Expr
 {

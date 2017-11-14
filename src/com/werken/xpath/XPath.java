@@ -7,8 +7,8 @@ import com.werken.xpath.parser.XPathRecognizer;
 import com.werken.xpath.impl.Context;
 import com.werken.xpath.impl.Expr;
 
-import org.jdom.Document;
-import org.jdom.Element;
+import org.jdom2.Document;
+import org.jdom2.Element;
 
 import antlr.CharBuffer;
 import antlr.*;

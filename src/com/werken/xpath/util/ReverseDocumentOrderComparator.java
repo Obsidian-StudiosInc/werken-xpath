@@ -1,8 +1,8 @@
 
 package com.werken.xpath.util;
 
-import org.jdom.Document;
-import org.jdom.Element;
+import org.jdom2.Document;
+import org.jdom2.Element;
 
 import java.util.Comparator;
 import java.util.List;

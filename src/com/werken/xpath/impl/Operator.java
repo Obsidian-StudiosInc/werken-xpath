@@ -1,8 +1,8 @@
 
 package com.werken.xpath.impl;
 
-import org.jdom.Element;
-import org.jdom.Attribute;
+import org.jdom2.Element;
+import org.jdom2.Attribute;
 
 import java.util.List;
 

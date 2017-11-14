@@ -4,7 +4,7 @@ package com.werken.xpath.impl;
 import com.werken.xpath.ContextSupport;
 import com.werken.xpath.function.BooleanFunction;
 
-import org.jdom.Element;
+import org.jdom2.Element;
 
 import java.util.List;
 import java.util.ArrayList;
