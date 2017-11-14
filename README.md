@@ -1,15 +1,9 @@
-#werken-xpath
+# werken-xpath :: Werken JDOM XPath Engine ::
 [![Build Status](https://img.shields.io/travis/Obsidian-StudiosInc/werken-xpath/master.svg?colorA=9977bb&style=plastic)](https://travis-ci.org/Obsidian-StudiosInc/werken-xpath)
 [![Build Status](https://img.shields.io/shippable/5a0a1aa5b2a4270700e2dcde/master.svg?colorA=9977bb&style=plastic)](https://app.shippable.com/projects/5a0a1aa5b2a4270700e2dcde/)
 
+## Introduction
 ------------------------------------------------------------------------
-werken.xpath :: Werken JDOM XPath Engine :: README.txt
-------------------------------------------------------------------------
-
-  ----------------------------------------
-        INTRODUCTION
-  ----------------------------------------
-
 This is the Werken JDOM XPath Engine (werken.xpath), created by  the 
 Werken & Sons Company. It's available at <http://code.werken.com/xpath>.
 
@@ -19,9 +13,8 @@ specification.  werken.xpath is merely an engine which can parse XPaths,
 and walk JDOM <http://www.jdom.org/> trees.
 
 
-  ----------------------------------------
-        REQUIREMENTS
-  ----------------------------------------
+## Requirements
+------------------------------------------------------------------------
 
 * A modern Java2 platform :: 
 
@@ -56,17 +49,13 @@ and walk JDOM <http://www.jdom.org/> trees.
     <http://www.antlr.org/>
 
 
-  ----------------------------------------
-        DOCUMENTATION
-  ----------------------------------------
-
+## Documentation
+------------------------------------------------------------------------
 Generated javadoc documentation will appear in the build/apidocs/
 directory.
 
-  ----------------------------------------
-        LICENSE
-  ----------------------------------------
-
+## License
+------------------------------------------------------------------------
 werken.xpath is licensed under the Apache Software Foundation
 license. Please see <http://www.apache.org/> for more information.
 Basically, do what ever you wish, as long as you mention "Werken &
@@ -74,10 +63,8 @@ Sons Company" some where in your documentation, colophon, or 'about'
 box.  Just some place, give credit where credit is due.
 
 
-  ----------------------------------------
-        ACKNOWLEDGEMENTS
-  ----------------------------------------
-
+## Acknowledgements
+------------------------------------------------------------------------
   * bob mcwhirter/@bobmcwhirter (bob@werken.com)
     Implementor of the initial code base of werken.xpath.
 
