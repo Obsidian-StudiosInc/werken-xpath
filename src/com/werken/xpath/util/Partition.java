@@ -67,7 +67,7 @@ public class Partition
 
   public static List followingSiblings(Element node)
   {
-    Element parent = node.getParent();
+    Element parent = node.getParentElement();
 
     if (parent == null)
     {
@@ -95,7 +95,7 @@ public class Partition
 
   public static List preceedingSiblings(Element node)
   {
-    Element parent = node.getParent();
+    Element parent = node.getParentElement();
 
     if (parent == null)
     {
@@ -137,7 +137,7 @@ public class Partition
       results.addAll( Partition.descendants( each ) );
     }
 
-    Element parent = node.getParent();
+    Element parent = node.getParentElement();
 
     if (parent != null)
     {
@@ -170,7 +170,7 @@ public class Partition
       results.addAll( Partition.descendants( each ) );
     }
 
-    Element parent = node.getParent();
+    Element parent = node.getParentElement();
 
     if (parent != null)
     {
