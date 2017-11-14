@@ -3,7 +3,6 @@
 [![Build Status](https://img.shields.io/shippable/5a0a1aa5b2a4270700e2dcde/master.svg?colorA=9977bb&style=plastic)](https://app.shippable.com/projects/5a0a1aa5b2a4270700e2dcde/)
 
 ## Introduction
-------------------------------------------------------------------------
 This is the Werken JDOM XPath Engine (werken.xpath), created by  the 
 Werken & Sons Company. It's available at <http://code.werken.com/xpath>.
 
@@ -14,7 +13,6 @@ and walk JDOM <http://www.jdom.org/> trees.
 
 
 ## Requirements
-------------------------------------------------------------------------
 
 * A modern Java2 platform :: 
 
@@ -50,12 +48,10 @@ and walk JDOM <http://www.jdom.org/> trees.
 
 
 ## Documentation
-------------------------------------------------------------------------
 Generated javadoc documentation will appear in the build/apidocs/
 directory.
 
 ## License
-------------------------------------------------------------------------
 werken.xpath is licensed under the Apache Software Foundation
 license. Please see <http://www.apache.org/> for more information.
 Basically, do what ever you wish, as long as you mention "Werken &
@@ -64,7 +60,6 @@ box.  Just some place, give credit where credit is due.
 
 
 ## Acknowledgements
-------------------------------------------------------------------------
   * bob mcwhirter/@bobmcwhirter (bob@werken.com)
     Implementor of the initial code base of werken.xpath.
 
