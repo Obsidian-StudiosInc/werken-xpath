@@ -71,7 +71,7 @@ public class StringFunction implements Function
 
   public static String evaluate(Element elem)
   {
-    List content = elem.getMixedContent();
+    List content = elem.getContent();
 
     Iterator contentIter = content.iterator();
     Object each = null;
